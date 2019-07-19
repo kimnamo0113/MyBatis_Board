@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+form{
+		width:600px;
+		border: 1px solid gray;
+		padding: 10px;
+	}
+	label{
+		width:120px;
+		float:left;
+	}
+	form p:last-child{
+		padding-left:120px;
+	}
+	span.error{
+		color:black;
+		font-size: 12px;
+	}
+	span.confirmError{
+		color:red;
+		font-size: 12px;
+		display: none;
+	}
+	span.duplicatedId{
+		color:red;
+		font-size: 12px;
+	}
