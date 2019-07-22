@@ -8,5 +8,6 @@ import kr.yi.board.model.Article;
 
 public interface ArticleDao {
 	public List<Article> selectListPage(Map<String, Object> map) throws SQLException;
+	public List<Article> selectList() throws SQLException;
 	public int selectTotalCount() throws SQLException;
 }

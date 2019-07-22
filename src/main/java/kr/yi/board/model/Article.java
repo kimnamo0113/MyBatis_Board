@@ -13,12 +13,12 @@ public class Article {
 	
 	
 	public Article() {
-		super();
+		
 	}
 	
 	public Article(int article_no, String writer_id, String writer_name, String title, Date regdate, Date moddate,
 			int read_cnt) {
-		super();
+
 		this.article_no = article_no;
 		this.writer_id = writer_id;
 		this.writer_name = writer_name;
